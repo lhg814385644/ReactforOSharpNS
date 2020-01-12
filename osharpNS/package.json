@@ -24,5 +24,12 @@
     "husky": "^0.12.0",
     "redbox-react": "^1.4.3",
     "roadhog": "^2.5.0-beta.4"
-  }
+  },
+  "proxy":{
+    "/api":{
+        "target":"http://localhost:7003/",
+        "changeOrigin":true
+
+    }
+}
 }
